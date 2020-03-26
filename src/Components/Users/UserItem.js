@@ -13,7 +13,7 @@ const UserItem =(props)=>{
                 />
                 <h3>{props.user.login}</h3>
                 <div>
-                    <a herf={props.user.html_url} className="btn btn-dark btn-sm my-1">
+                    <a href={props.user.html_url} className="btn btn-dark btn-sm my-1">
                         More
                     </a>
                 </div>
